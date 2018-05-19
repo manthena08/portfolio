@@ -1,8 +1,14 @@
 body{
+    margin: 0;
     margin-left: 15%;
     margin-right: 15%;
 }
-
+.brand-image{
+    align-items: center;
+}
+.brand-image img {
+    height: 55px;
+}
 .d-flex{
     display: flex;
 }
@@ -20,7 +26,7 @@ header{
 }
 
 .main-image{
-    height: 500px;
+    height: 400px;
 }
 
 .card-list{
@@ -37,4 +43,12 @@ header{
 .card-image{
     width: 100%;
     height: 250px;
+}
+
+.dev-name{
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+.dev-position{
+    margin-top: 0;
 }
