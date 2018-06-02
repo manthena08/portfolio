@@ -1,7 +1,6 @@
 body{
     margin: 0;
-    margin-left: 15%;
-    margin-right: 15%;
+
 }
 .brand-image{
     align-items: center;
@@ -9,6 +8,17 @@ body{
 .brand-image img {
     height: 55px;
 }
+
+.feature-image-container{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url('./images/ft-dev-small.jpg');
+    background-size: 100% 300px;
+}
+
+
+
 .d-flex{
     display: flex;
 }
@@ -38,11 +48,15 @@ header{
 .card{
     max-width: 350px;
     max-height: 350px;
+    margin-bottom: 30px;
 }
-
+.card .card-title{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
 .card-image{
     width: 100%;
-    height: 250px;
+    height: 210px;
 }
 
 .dev-name{
@@ -52,3 +66,36 @@ header{
 .dev-position{
     margin-top: 0;
 }
+
+.feature-area{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.feature-area h2{
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .feature-image-container{
+        height: 325px;
+        background-image: url('./images/ft-dev-medium.jpg');
+        background-size: 100% 325px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .feature-image-container{
+        height: 425px;
+        background-image: url('./images/ft-dev-large.jpg');
+        background-size: 100% 425px;
+
+    }
+}
+

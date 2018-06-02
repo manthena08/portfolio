@@ -10,9 +10,10 @@
 </head>
 
 <body>
+    <!--The header of the page with main logo and DEV info-->
     <header class="d-flex">
         <div class="d-flex brand-image">
-            <img src="./images/brand.png" />
+            <img src="./images/brand.png" alt="Logo" />
         </div>
         <div class="brand-description">
             <h1 class="dev-name">
@@ -23,33 +24,37 @@
             </h3>
         </div>
     </header>
-    <section>
-        <img class="w-100 main-image" src="./images/main_image.jpeg" />
-    </section>
+
     <main>
-        <h2>Featured Work</h2>
-        <div class="card-list">
-            <div class="card">
-                <img class="card-image" src="./images/Angular2.png" />
-                <div class="card-content">
-                    <h3>Angular</h3>
-                    <div>https://github.com/manthena08/angular-service-worker-starter</div>
+        <!-- The Feature image container-->
+        <div class="feature-image-container"></div>
+        <!-- The feature work presentation area-->
+        <div class="feature-area">
+            <h2>Featured Work</h2>
+            <div class="card-list">
+                <div class="card">
+                    <img class="card-image" src="./images/Angular2.png" alt="Angular Icon" />
+                    <div class="card-content">
+                        <h3 class="card-title">Angular</h3>
+                        <div>https://github.com/manthena08/angular-service-worker-starter</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./images/react.png" alt="React Icon" />
+                    <div class="card-content">
+                        <h3 class="card-title">React</h3>
+                        <div>https://github.com/manthena08/react-redux-readable</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./images/python.jpg" alt="Python Icon" />
+                    <div class="card-content">
+                        <h3 class="card-title">Python</h3>
+                        <div>https://github.com/manthena08/movie_trailer</div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img class="card-image" src="./images/react.png" />
-                <div class="card-content">
-                    <h3>React</h3>
-                    <div>https://github.com/manthena08/react-redux-readable</div>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-image" src="./images/python.jpg" />
-                <div class="card-content">
-                    <h3>Python</h3>
-                    <div>https://github.com/manthena08/movie_trailer</div>
-                </div>
-            </div>
+
         </div>
 
     </main>
