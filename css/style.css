@@ -13,7 +13,7 @@ body{
     width: 100%;
     height: 300px;
     background-repeat: no-repeat;
-    background-image: url('./images/ft-dev-small.jpg');
+    background-image: url('../images/ft-dev-small.jpg');
     background-size: 100% 300px;
 }
 
@@ -80,7 +80,7 @@ header{
     
     .feature-image-container{
         height: 325px;
-        background-image: url('./images/ft-dev-medium.jpg');
+        background-image: url('../images/ft-dev-medium.jpg');
         background-size: 100% 325px;
     }
 
@@ -93,7 +93,7 @@ header{
     }
     .feature-image-container{
         height: 425px;
-        background-image: url('./images/ft-dev-large.jpg');
+        background-image: url('../images/ft-dev-large.jpg');
         background-size: 100% 425px;
 
     }
